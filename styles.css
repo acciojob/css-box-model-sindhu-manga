@@ -1,24 +1,9 @@
-/* Your CSS Code here. */
-body {
-  margin: 0;
-  background: white;
-}
-
-.outer-box {
-  margin: 20px;
-  border: 15px solid blue;
-  background-color: #0000aa; /* background matching the outer box */
-}
-
-.inner-box {
-  background-color: lightblue;
-  padding: 50px;
+.box {
   width: 300px;
-  color: black;
+  padding: 50px;
+  border: 15px solid rgb(0, 0, 255); /* blue border */
+  margin: 20px;
+  background-color: rgb(173, 216, 230); /* lightblue */
+  box-sizing: content-box;
   font-family: monospace;
-  border: 1px dashed black; /* optional: just to visually match the sketch */
-}
-
-.inner-box p {
-  margin: 0;
 }
